@@ -16,7 +16,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Cardinal Wings menus -->
-    <string name="cardinal_wings_title">The Wings!</string>
+    <string name="cardinal_wings_title">Wings!</string>
     <string name="keywords_cardinal">Cardinal-AOSP</string>
 
     <!-- Main Settings -->
@@ -26,16 +26,14 @@
     <string name="statusbar_summary">Options for customizing statusbar, qs, notifications etc.</string>    
     <string name="buttons_title">Buttons</string>
     <string name="buttons_summary">Options for Vol controls, Navigation bar etc.</string>
-    <string name="lockscreen_title">LockScreen</string>
-    <string name="lockscreen_summary">LockScreen customizations.</string>
+    <string name="lockscreen_title">Lockscreen</string>
+    <string name="lockscreen_summary">Lockscreen customizations.</string>
+    <string name="recents_ui_title">Recents</string>
+    <string name="recents_ui_summary">Recents customizations.</string>
 
     <!-- double tap to sleep - statusbar -->
     <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
     <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
-
-    <!-- statusbar brightness control -->
-    <string name="status_bar_toggle_brightness">Brightness control</string>
-    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
 
     <!-- Volume button wake -->
     <string name="volbtn_wake_device_title">Volume button wake</string>
@@ -48,10 +46,6 @@
     <!-- Wake on Plug -->
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
     <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
-
-    <!-- Volume key controls media stream -->
-    <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
-    <string name="volume_keys_control_media_stream_summary">Force volume keys to control media stream</string>
 
     <!-- Network traffic -->
     <string name="network_traffic_title">Network traffic</string>
@@ -98,30 +92,9 @@
     <string name="color_title">Color</string>
     <string name="colors_title">Colors</string>
 
-   <!-- Custom carrier label and position -->
-    <string name="carrier_label_settings_title">Carrier Label</string>
-    <string name="carrier_label_settings_summary">Customize the carrier label</string>
-    <string name="custom_carrier_label_title">Custom carrier label</string>
-    <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
-    <string name="custom_carrier_label_notset">Custom label currently not set</string>
-    <string name="show_carrier_title">Carrier label</string>
-    <string name="show_carrier_disabled">Disabled</string>
-    <string name="show_carrier_keyguard">Lockscreen only</string>
-    <string name="show_carrier_statusbar">Statusbar only</string>
-    <string name="show_carrier_enabled">Lockscreen &amp; statusbar</string>
-
-    <!-- Lockscreen torch -->
-    <string name="keyguard_torch_title">Lockscreen torch</string>
-    <string name="keyguard_torch_summary">Longpress power button with screen off turns on torch</string>
-
     <!-- fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
-
-    <!-- Screen record chord behavior -->
-    <string name="screen_record_chord_title">Power + volume up behavior</string>
-    <string name="screen_record_chord_screenrecord">Start screen recording</string>
-    <string name="screen_record_chord_selscreenshot">Take screenshot of selectable area</string>
 
     <!-- Battery customizations -->
     <string name="battery_settings_title">Battery Settings</string>
@@ -129,7 +102,7 @@
 
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">FP unlock</string>
-    <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+    <string name="fp_unlock_keystore_summary">Allow unlocking device using Fingerprint directly after boot\nNote: at your own risk!</string>
 
     <!-- Media art -->
     <string name="media_art_title">Media cover art</string>
@@ -156,7 +129,7 @@
     <string name="status_bar_icon_blacklist_summary">Configure what icons are shown on status bar</string>
     <string name="lockscreen_shortcuts_title">Lockscreen shortcuts</string>
     <string name="lockscreen_shortcuts_summary">Lockscreen bottom shortcuts</string>
-    <string name="navbar_buttons_title">On-screen navigation bar layout</string>
+    <string name="navbar_buttons_title">Navigation bar layout</string>
     <string name="navbar_buttons_summary">Configure on-screen navigation bar layout and custom buttons</string>
     <string name="qs_brightness_slider_title">Brightness slider</string>
     <string name="qs_brightness_slider_summary">Show brightness slider on quick settings panel</string>
@@ -181,8 +154,19 @@
    <string name="navigationbar_settings_summary">Configure navigation buttons</string>
    <string name="hardwarekeys_cat_title">Hardware Keys</string>
 
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Clear all button</string>
+    <string name="show_clear_all_recents_button_summary">Show clear all button</string>
+    <string name="recents_clear_all_location_title">Clear all location</string>
+    <string name="recents_clear_all_location_top_right">Top right</string>
+    <string name="recents_clear_all_location_top_left">Top left</string>
+    <string name="recents_clear_all_location_top_center">Top center</string>
+    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+
     <!-- Navigationbar toggle -->
-    <string name="navigation_bar_show_title">Show on-screen navigation bar</string>
+    <string name="navigation_bar_show_title">Show navigation bar</string>
     <string name="navigation_bar_show_summary">Force enable on-screen navigation bar</string>
     <!-- Buttons Backlight -->
     <string name="button_backlight_cat">Button backlight</string>
@@ -241,5 +225,17 @@
     <!-- Incall Home button behavior-->
     <string name="allow_incall_home_title">Home button when ringing</string>
     <string name="allow_incall_home_summary">Allow to use home button when incoming call is ringing</string>
+
+    <!-- Disable QS on secure Lockscreen -->
+    <string name="lockscreen_qs_disabled_title">Secured quick settings</string>
+    <string name="lockscreen_qs_disabled_summary">Prevent expanding quick settings on secure lock screens</string>
+
+    <!-- Hide Lockscreen shortcuts on secure Lockscreen -->
+    <string name="lockscreen_hide_shortcuts_title">Hide bottom Shortcuts</string>
+    <string name="lockscreen_hide_shortcuts_summary">Hide bottom shortcuts on secure lock screens</string>
+
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
+    <string name="pixel_navbar_anim_summary">Enable pixel animation on home button</string>
 
 </resources>
